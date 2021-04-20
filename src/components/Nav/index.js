@@ -26,12 +26,12 @@ function Nav() {
                             About me
                         </a>
                     </li>
-                    <li>
+                    <li className="mx-2">
                         <span>Contact</span>
                     </li>
                     {categories.map(category => (
                         <li
-                            className="mx-1"
+                            className="mx-2"
                             key={category.name}
                         >
                             <span onClick={() => categorySelected(category.name)} >
